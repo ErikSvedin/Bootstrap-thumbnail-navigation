@@ -1,0 +1,24 @@
+Bootstrap-thumbnail-navigation
+
+Plugin that builds upon Twitter Bootstraps tab. Adds functionality to make a navigation menu with a list of thumbnails.
+
+Requirements:
+  jQuery
+  Twitter Bootstrap tabs
+
+Usage:
+
+<div id="example-id">
+    <div class="navigation-outer-wrap">
+        <ul class="thumbnail-navigation-list">
+            <li class="active"><a href="#tab1-pane1" data-toggle="tab"> ... </a></li>
+            <li> .. </li>
+        </ul>
+    </div>
+
+    <a class="navigation left pull-left"> ... </a>
+    <a class="navigation right pull-right"> ... </a>
+</div>
+
+Call the plugin on a containing div 'example-id'.
+Make sure the 'navigation-outer-wrap' css property is set to overflow:hidden.
